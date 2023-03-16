@@ -1,0 +1,9 @@
+D:\CheckBoxApp\CheckBoxApp\bin\Debug\CheckBoxApp.exe
+D:\CheckBoxApp\CheckBoxApp\bin\Debug\CheckBoxApp.pdb
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\CheckBoxApp.Form1.resources
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\CheckBoxApp.Properties.Resources.resources
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\CheckBoxApp.exe
+D:\CheckBoxApp\CheckBoxApp\obj\x86\Debug\CheckBoxApp.pdb

@@ -1,0 +1,11 @@
+d:\AptechStudentMS\AptechStudentMS\bin\Debug\AptechStudentMS.exe
+d:\AptechStudentMS\AptechStudentMS\bin\Debug\AptechStudentMS.pdb
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.Form1.resources
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.Properties.Resources.resources
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\ResGen.read.1.tlog
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\ResGen.write.1.tlog
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.exe
+d:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.pdb
+H:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.exe
+H:\AptechStudentMS\AptechStudentMS\obj\x86\Debug\AptechStudentMS.pdb

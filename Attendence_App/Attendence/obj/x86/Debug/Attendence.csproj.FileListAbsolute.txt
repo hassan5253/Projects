@@ -1,0 +1,9 @@
+D:\Attendence\Attendence\bin\Debug\Attendence.exe
+D:\Attendence\Attendence\bin\Debug\Attendence.pdb
+D:\Attendence\Attendence\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Attendence\Attendence\obj\x86\Debug\Attendence.Form1.resources
+D:\Attendence\Attendence\obj\x86\Debug\Attendence.Properties.Resources.resources
+D:\Attendence\Attendence\obj\x86\Debug\ResGen.read.1.tlog
+D:\Attendence\Attendence\obj\x86\Debug\ResGen.write.1.tlog
+D:\Attendence\Attendence\obj\x86\Debug\Attendence.exe
+D:\Attendence\Attendence\obj\x86\Debug\Attendence.pdb

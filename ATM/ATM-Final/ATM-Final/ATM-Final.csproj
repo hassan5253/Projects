@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{009EF4AA-5FD7-484E-9910-397ECD3B9010}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATM_Final</RootNamespace>
+    <AssemblyName>ATM-Final</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATM Client App.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATM Client App.Designer.cs">
+      <DependentUpon>ATM Client App.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceRPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BalanceRPT.Designer.cs">
+      <DependentUpon>BalanceRPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Changepin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Changepin.Designer.cs">
+      <DependentUpon>Changepin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectDB.cs" />
+    <Compile Include="Deposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposit.Designer.cs">
+      <DependentUpon>Deposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepositRPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositRPT.Designer.cs">
+      <DependentUpon>DepositRPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreens.Designer.cs">
+      <DependentUpon>LoginScreens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniState.Designer.cs">
+      <DependentUpon>MiniState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAccount.Designer.cs">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAccount.Designer.cs">
+      <DependentUpon>ViewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdraw Amount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdraw Amount.Designer.cs">
+      <DependentUpon>Withdraw Amount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithdrawRPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawRPT.Designer.cs">
+      <DependentUpon>WithdrawRPT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ATM Client App.resx">
+      <DependentUpon>ATM Client App.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BalanceRPT.resx">
+      <DependentUpon>BalanceRPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Changepin.resx">
+      <DependentUpon>Changepin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposit.resx">
+      <DependentUpon>Deposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositRPT.resx">
+      <DependentUpon>DepositRPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreens.resx">
+      <DependentUpon>LoginScreens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniState.resx">
+      <DependentUpon>MiniState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAccount.resx">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ViewAccount.resx">
+      <DependentUpon>ViewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdraw Amount.resx">
+      <DependentUpon>Withdraw Amount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawRPT.resx">
+      <DependentUpon>WithdrawRPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\loginbanner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

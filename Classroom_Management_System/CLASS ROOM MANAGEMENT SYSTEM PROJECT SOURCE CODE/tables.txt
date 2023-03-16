@@ -1,0 +1,53 @@
+﻿create table faculty 
+(
+  facid  int  identity primary key,
+  facname varchar(50),
+  password varchar(10),
+  email  varchar(50) unique,
+  qualification varchar(100)
+)
+
+insert into faculty values('Stephen Walther','s','steve@microsoft.com','MS CS');
+insert into faculty values('Herbert Schild','h','herbert@gmail.com','MS CS');
+
+create table batch
+( batchid   int identity(100,1) primary key,
+  facid     int references faculty(facid),
+  subject   varchar(50),
+  stdate    datetime,
+  enddate   datetime
+);
+
+insert into batch values(1,'Asp.Net','12/28/2010',null);
+insert into batch values(2,'C#','1/25/2011',null);
+insert into batch values(1,'Asp.Net','1/20/2011',null);
+
+create table student
+( studid  int identity (1000,1) primary key,
+  batchid  int  references batch(batchid),
+  studname varchar(50),
+  password varchar(10),
+  email    varchar(50) unique
+);
+
+insert into student values(100,'Joe','j','joe@gmail.com');
+insert into student values(100,'Bob','b','bob@gmail.com');
+insert into student values(101,'Tim','t','tim@yahoo.com');
+insert into student values(102,'Cathy','c','cathy@gmail.com');
+
+create table topics
+( topicid  int identity(2000,1) primary key,
+  batchid  int  references batch(batchid),
+  day      datetime,
+  topics   varchar(200),
+  exercises  varchar(500)
+)
+
+create table feedback
+(  feedbackid int  identity primary key,
+   studid  int  references student(studid),
+   postedon  datetime,
+   feedback  varchar(1000),
+   reply     varchar(1000)
+);
+

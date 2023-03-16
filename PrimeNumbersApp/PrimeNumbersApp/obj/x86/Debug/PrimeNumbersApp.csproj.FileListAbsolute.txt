@@ -1,0 +1,5 @@
+c:\users\student.lab-5-2\documents\visual studio 2010\Projects\PrimeNumbersApp\PrimeNumbersApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\student.lab-5-2\documents\visual studio 2010\Projects\PrimeNumbersApp\PrimeNumbersApp\bin\Debug\PrimeNumbersApp.exe
+c:\users\student.lab-5-2\documents\visual studio 2010\Projects\PrimeNumbersApp\PrimeNumbersApp\bin\Debug\PrimeNumbersApp.pdb
+c:\users\student.lab-5-2\documents\visual studio 2010\Projects\PrimeNumbersApp\PrimeNumbersApp\obj\x86\Debug\PrimeNumbersApp.exe
+c:\users\student.lab-5-2\documents\visual studio 2010\Projects\PrimeNumbersApp\PrimeNumbersApp\obj\x86\Debug\PrimeNumbersApp.pdb

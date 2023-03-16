@@ -1,0 +1,41 @@
+create database SuperStore;
+use SuperStore;
+-------------------------
+create table tbl_Customer
+(
+InvoiceNo int identity(100,1) primary key,
+CName varchar(Max),
+Phone varchar(15)
+);
+create procedure SaveCustomer
+@A varchar(Max), @B varchar(15)
+as Insert into tbl_Customer values (@A, @B) Select SCOPE_IDENTITY();
+--------------------------
+create table tblProduct
+(
+PID int identity(500,1) primary key,
+PName varchar(Max),
+UPrice int
+);
+Select * from tblProduct
+Insert into tblProduct values ('Tapal Danedar 250 gms',125);
+Insert into tblProduct values ('Tapal Mixture 250 gms',120);
+Insert into tblProduct values ('Lipton Yellow Lable 250 gms',115);
+Insert into tblProduct values ('Supreme Tea 50 gms',110);
+Insert into tblProduct values ('Knorr Noodles 20 gms',25);
+Insert into tblProduct values ('Maggie Noodles 20 gms',20);
+Insert into tblProduct values ('Colgate Tooth Brush 80 gms',60);
+Insert into tblProduct values ('Fine Rice 5 kg',450);
+Insert into tblProduct values ('National Salt 1 kg',20);
+Insert into tblProduct values ('Shaan Biryani Masala 40 gms',50);
+Insert into tblProduct values ('Scotch Brite 1 pack',25);
+---------------------------------------
+create table tblOrder
+(
+OID int identity(800,1) primary key,
+InvoiceNo int,
+PName varchar(Max),
+UPrice int,
+Qty int,
+Total int
+);

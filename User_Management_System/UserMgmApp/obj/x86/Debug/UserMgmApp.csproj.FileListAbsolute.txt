@@ -1,0 +1,12 @@
+d:\UserMgmApp\UserMgmApp\bin\Debug\UserMgmApp.exe
+d:\UserMgmApp\UserMgmApp\bin\Debug\UserMgmApp.pdb
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.Form1.resources
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.Properties.Resources.resources
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\ResGen.read.1.tlog
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\ResGen.write.1.tlog
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.exe
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.pdb
+d:\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.MainApp.resources
+D:\My Files\C# Works\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.exe
+D:\My Files\C# Works\UserMgmApp\UserMgmApp\obj\x86\Debug\UserMgmApp.pdb

@@ -1,0 +1,18 @@
+d:\TransactionApp\TransactionApp\bin\Debug\TransactionApp.exe
+d:\TransactionApp\TransactionApp\bin\Debug\TransactionApp.pdb
+d:\TransactionApp\TransactionApp\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.Form1.resources
+d:\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.Properties.Resources.resources
+d:\TransactionApp\TransactionApp\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\TransactionApp\TransactionApp\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.exe
+d:\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.pdb
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.exe
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.pdb
+D:\My Files\C# Works\TransactionApp\TransactionApp\bin\Debug\TransactionApp.exe
+D:\My Files\C# Works\TransactionApp\TransactionApp\bin\Debug\TransactionApp.pdb
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.Form1.resources
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\TransactionApp.Properties.Resources.resources
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Files\C# Works\TransactionApp\TransactionApp\obj\x86\Debug\GenerateResource.write.1.tlog
