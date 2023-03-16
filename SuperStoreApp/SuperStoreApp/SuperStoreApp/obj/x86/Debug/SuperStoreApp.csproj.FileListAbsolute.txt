@@ -1,0 +1,10 @@
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\SuperStoreApp.Form1.resources
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\SuperStoreApp.Properties.Resources.resources
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\ResGen.read.1.tlog
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\ResGen.write.1.tlog
+d:\SuperStoreApp\SuperStoreApp\bin\Debug\SuperStoreApp.exe
+d:\SuperStoreApp\SuperStoreApp\bin\Debug\SuperStoreApp.pdb
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\SuperStoreApp.exe
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\SuperStoreApp.pdb
+d:\SuperStoreApp\SuperStoreApp\obj\x86\Debug\SuperStoreApp.ViewOrders.resources
